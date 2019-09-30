@@ -4,6 +4,8 @@
 
 using coordonnee = size_t;
 
+enum class structure {oscillateurLigne,floraison,planeur,oscillateurCroix};
+
 class Grille
 {
 public:
@@ -13,19 +15,21 @@ public:
     void generer(coordonnee x, coordonnee y);
     void tuer(coordonnee x, coordonnee y);
     void afficher();
+    int vivantes(coordonnee x, coordonnee y);
+    void evolutionGrille(Grille &g);
+    void ajouterStructure(structure struc, coordonnee x, coordonnee y);
 
 private:
 
     enum etatCell {mort,vivant};
+
+
+
     coordonnee _hauteur;
     coordonnee _largeur;
-    std::vector<etatCell> _matriceEtats;
-//    std::vector<vec> _matriceEtat;
-//    std::vector<std::vector<etatCell>> _matriceEtat;
-//    std::vector<std::vector<etatCell> > _matriceEtat(10, vector<M>(10));
+    structure struc;
 
-      struct structures{
-          std::string nom;
-          std::vector<coordonnee> cellVivantes;
-      };
+    std::vector<std::vector<etatCell>> _matriceEtats;
+
+
 };
