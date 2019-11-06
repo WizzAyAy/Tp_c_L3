@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.5.2, 2019-09-30T15:17:08. -->
+<!-- Written by QtCreator 4.5.2, 2019-11-05T13:55:06. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -90,7 +90,7 @@
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.AdditionalArguments"></value>
       <valuelist type="QVariantList" key="CMakeProjectManager.MakeStep.BuildTargets">
-       <value type="QString">clean</value>
+       <value type="QString">all</value>
       </valuelist>
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">CMake Build</value>
@@ -164,14 +164,16 @@
      <value type="int">13</value>
      <value type="int">14</value>
     </valuelist>
-    <value type="int" key="PE.EnvironmentAspect.Base">-1</value>
+    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguation.Title">tp3_exo1</value>
+    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.Arguments"></value>
+    <value type="bool" key="CMakeProjectManager.CMakeRunConfiguration.UseTerminal">true</value>
+    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.UserWorkingDirectory.default">/home/quentin/Qt-workspace/build-tp3_exo1-Desktop-Debug</value>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Arguments"></value>
-    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Executable"></value>
-    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.WorkingDirectory">%{buildDir}</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Custom Executable</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">tp3_exo1</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.CustomExecutableRunConfiguration</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.tp3_exo1</value>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
